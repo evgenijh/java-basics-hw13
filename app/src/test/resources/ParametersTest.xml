@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression suite" time-out="5000" verbose="1">
+    <parameter name="kind" value="GDO"/>
+    <parameter name="product" value="Genie"/>
+    <parameter name="kind" value="GDO"/>
+    <parameter name="product" value="OHD"/>
+    <parameter name="kind" value="Water Valve"/>
+    <parameter name="product" value="Flo"/>
+    <parameter name="kind" value="Thermostat"/>
+    <parameter name="product" value="Honeywell T6"/>
+    <parameter name="kind" value="Thermostat"/>
+    <parameter name="product" value="Honeywell T10"/>
+    <parameter name="kind" value="Lock"/>
+    <parameter name="product" value="Level Lock"/>
+    <test name="Parameters Test">
+       <classes>
+           <class name="com.example.TestParameters"></class>
+       </classes>
+    </test>
+</suite>

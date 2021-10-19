@@ -25,7 +25,6 @@ public class DeviceDataTest {
                 {"GDO", "Genie"},
                 {"GDO", "OHD"},
                 {"Water Valve", "Flo"},
-                {"Lock", "Level Lock"},
                 {"Thermostat", "Honeywell T10"},
                 {"Thermostat", "Honeywell T6"},
         };

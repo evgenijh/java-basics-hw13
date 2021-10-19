@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="myQ suite" verbose="1">
+    <test name="myQ Test">
+        <classes>
+            <class name="com.example.MyqTest"></class>
+        </classes>
+    </test>
+
+</suite>
